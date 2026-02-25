@@ -1,56 +1,16 @@
-# 🌐 Personal Portfolio Website
+# React + Vite
 
-This is my personal portfolio website built using **ReactJS and CSS**.  
-It showcases my projects, skills, and background as a Software Engineering student.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔗 Live Website:
-https://Diyana1111.github.io
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 👩‍💻 About Me
+## React Compiler
 
-I am a **Software Engineering student** at **University of Westminster (UK)** studying at **IIT Sri Lanka**.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-I am passionate about software development and continuously improving my skills in web development and programming.
+## Expanding the ESLint configuration
 
----
-
-## 🚀 Technologies Used
-
-### Frontend
-
-- ReactJS
-- HTML5
-- CSS3
-- JavaScript
-
-### Tools
-
-- Git
-- GitHub
-- VS Code
-
----
-
-## 📂 Features
-
-- Modern UI Design
-- Responsive Layout
-- About Me Section
-- Skills Section
-- Projects Section
-- Education Section
-- Contact Form
-- Smooth Navigation
-
----
-
-## ⚙️ Installation
-
-To run this project locally:
-
-```bash
-npm install
-npm run dev
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

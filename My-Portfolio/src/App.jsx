@@ -56,7 +56,7 @@ const projects = [
     image: portfolioImg,
     desc: "This is my personal portfolio built with React and CSS, created to showcase my skills, projects, and experience as a frontend developer. It highlights my work, provides a quick view of my abilities, and serves as a platform for future internship opportunities.",
     tags: ["ReactJs", "CSS"],
-    links: {github: "#" , website: "#"}
+    links: {github: "https://github.com/Diyana1111/My-Portfolio-Website" , website: "https://diyana1111.github.io/My-Portfolio-Website/"}
   },
   {
     title: "SkyNow – Weather Forecast Website",
