@@ -15,6 +15,9 @@ import trafficImg from './assets/Projects/Project3.png';
 import qrImg from './assets/Projects/Project4.jpg';
 import portfolioImg from './assets/Projects/Project5.png';
 import weatherImg from './assets/Projects/Project6';
+import traampMobileImg from './assets/Projects/Project7.png';
+import TravelApiImg from './assets/Projects/Project8.png';
+import UniImg from './assets/Projects/Project9.png';
 import westminsterLogo from './assets/Education/westminster.jpg'; 
 import schoolLogo from './assets/Education/school.jpg';
 
@@ -28,7 +31,14 @@ const projects = [
     image:traampImg,
     desc: "Traamp is a second year group project where my team and I are creating a tourism guide platform for Sri Lanka. We have completed the Traamp landing page, which introduces the app, highlights key features, and helps users discover popular travel destinations. This project strengthened my skills in frontend development, responsive design, and teamwork.",
     tags: ["NextJs", "TypeScript", "TailwindCSS"],
-    links: {github: "#" , website: "https://traamp.com"}
+    links: {github: "https://github.com/Diyana1111/traamp-landingpg" , website: "https://traamp.com"}
+  },
+  {
+    title: "Traamp Mobile Application",
+    image:traampMobileImg,
+    desc: "A tourism and travel mobile application developed using Flutter, Firebase and Node.js. The platform allows tourists to discover guides, book tour packages, manage profiles, communicate with guide and explore travel experiences. Features include authentication, guide profile management, package management, certificate uploads, real-time data handling and secure REST API integration with Firebase backend services.",
+    tags: ["Flutter","Firebase","Node.js","REST API","Firestore", "OpenWeatherAPI", "Express.js", "Next.js", "Google Maps API", "Gemini API"],
+    links: {github: "https://github.com/Diyana1111/traamp-application" , website: "https://traamp.com"}
   },
   {
     title: "Feed The Future Website",
@@ -45,13 +55,6 @@ const projects = [
     links: {github: "https://github.com/Diyana1111/Traffic-Data-Analyzer"}
   },
   {
-    title: "QR Code Generator & Reader",
-    image: qrImg,
-    desc: "A simple Python project that lets users generate and read QR codes using the qrcode, Pillow, and pyzbar libraries. It can create QR codes from any text or URL, save them as images, and scan existing QR code images to extract the embedded information.",
-    tags: ["Python", "Pyzbar", "Pillow"],
-    links: {github: "https://github.com/Diyana1111/QR-Code-Generator-and-Reader"}
-  },
-  {
     title: "Portfolio Website",
     image: portfolioImg,
     desc: "This is my personal portfolio built with React and CSS, created to showcase my skills, projects, and experience as a frontend developer. It highlights my work, provides a quick view of my abilities, and serves as a platform for future internship opportunities.",
@@ -59,11 +62,32 @@ const projects = [
     links: {github: "https://github.com/Diyana1111/My-Portfolio-Website" , website: "https://diyana1111.github.io/My-Portfolio-Website/"}
   },
   {
+    title: "Sri Lanka Travel API",
+    image: TravelApiImg,
+    desc: "A custom REST API built with Node.js that provides information about popular travel destinations in Sri Lanka. The API supports GET and POST requests, query parameter filtering, path parameter filtering, validation, UUID generation and JSON responses",
+    tags: ["Node.js", "REST API", "JavaScript"],
+    links: {github: "https://github.com/Diyana1111/Sri-Lanka-Travel-API"}
+  },
+  {
+    title: "University Enrollment System",
+    image: UniImg,
+    desc: "A Java-based University Enrollment System developed as part of a Second Year OOP LabBased Live Coding Exam. The project demonstrates core OOP concepts including inheritance, encapsulation, polymorphism, abstraction, interfaces, comparator-based sorting and MVC architecture. Built using Java Swing for the GUI, Maven for project management and JUnit for testing, the system supports student and lecturer management, sorting/filtering functionalities and a dynamic JTable-based graphical interface.",
+    tags: ["Java","OOP","Java Swing","Maven","JUnit","MVC","Collections Framework"],
+    links: {github: "https://github.com/Diyana1111/UniversityEnrollmentSystem"}
+  },
+  {
     title: "SkyNow – Weather Forecast Website",
     image: weatherImg,
     desc: "Weather website that retrieves and displays real-time weather data based on user input. Implemented API integration, input validation, dynamic UI updates, loading states, error handling, and weather icons to provide an interactive and user-friendly experience.",
     tags: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
     links: {github: "https://github.com/Diyana1111/Weather-Website"}
+  },
+  {
+    title: "QR Code Generator & Reader",
+    image: qrImg,
+    desc: "A simple Python project that lets users generate and read QR codes using the qrcode, Pillow, and pyzbar libraries. It can create QR codes from any text or URL, save them as images, and scan existing QR code images to extract the embedded information.",
+    tags: ["Python", "Pyzbar", "Pillow"],
+    links: {github: "https://github.com/Diyana1111/QR-Code-Generator-and-Reader"}
   },
 ];
 
