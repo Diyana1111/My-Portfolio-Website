@@ -9,14 +9,14 @@ import emailjs from "emailjs-com";
 import logo from './assets/Mylogo.png';
 import profileImg from './assets/profile.jpg';
 import cvFile from './assets/DiyanaCV.pdf';
-import traampImg from './assets/Project1.png';
-import feedImg from './assets/Project2.png';
-import trafficImg from './assets/Project3.png';
-import qrImg from './assets/Project4.jpg';
-import portfolioImg from './assets/Project5.png';
-import weatherImg from './assets/Project6.png';
-import westminsterLogo from './assets/westminster.jpg'; 
-import schoolLogo from './assets/school.jpg';
+import traampImg from './assets/Projects/Project1.png';
+import feedImg from './assets/Projects/Project2.png';
+import trafficImg from './assets/Projects/Project3.png';
+import qrImg from './assets/Projects/Project4.jpg';
+import portfolioImg from './assets/Projects/Project5.png';
+import weatherImg from './assets/Projects/Project6';
+import westminsterLogo from './assets/Education/westminster.jpg'; 
+import schoolLogo from './assets/Education/school.jpg';
 
 // Import fa icons 
 import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaPhone, FaFacebook } from 'react-icons/fa';
