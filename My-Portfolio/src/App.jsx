@@ -14,12 +14,13 @@ import feedImg from './assets/Projects/Project2.png';
 import trafficImg from './assets/Projects/Project3.png';
 import qrImg from './assets/Projects/Project4.jpg';
 import portfolioImg from './assets/Projects/Project5.png';
-import weatherImg from './assets/Projects/Project6';
+import weatherImg from './assets/Projects/Project6.png';
 import traampMobileImg from './assets/Projects/Project7.png';
 import TravelApiImg from './assets/Projects/Project8.png';
 import UniImg from './assets/Projects/Project9.png';
 import westminsterLogo from './assets/Education/westminster.jpg'; 
 import schoolLogo from './assets/Education/school.jpg';
+import IITLogo from './assets/Education/IITLogo.png';
 
 // Import fa icons 
 import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaPhone, FaFacebook } from 'react-icons/fa';
@@ -130,11 +131,17 @@ const educationData = [
     logo: westminsterLogo
   },
   {
+    institution: "Informatics Institute of Technology",
+    degree: "BEng(Hons) Software Engineering (Undergraduate)",
+    duration: "2024 - Present",
+    logo: IITLogo
+  },
+  {
     institution: "Sanghamitta Balika Vidyalaya, Galle",
     degree: "Primary & Secondary Education",
     duration: "2010 - 2023",
     logo: schoolLogo
-  }
+  },
 ];
 
 // EmailJS
